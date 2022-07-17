@@ -1,6 +1,9 @@
 # caiman-napari-prototype
 Prototype `caiman` plugin for the `napari` viewer.
 
+# mesmerize-napari
+This was a prototype, please see [`mesmerize-napari`](https://github.com/nel-lab/mesmerize-napari).
+
 ## CNMF demo
 This plugin interfaces with CaImAn CNMF using `QProcess` and displays the spatial components using `napari.layers.shapes`. `stdout` from the ongoing `QProcess` is shown in the text area on the right.
 ![cnmf](./screenshots/cnmf_prototype.gif)
